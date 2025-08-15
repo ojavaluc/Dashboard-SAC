@@ -67,6 +67,36 @@
         grid-template-columns: 1fr;
       }
     }
+    .ranking-mensal {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.ranking-mensal table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+}
+
+.ranking-mensal th, .ranking-mensal td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.ranking-mensal th {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.ranking-mensal tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
   </style>
 </head>
 <body>
@@ -167,6 +197,50 @@ widget.close();
 widget.toggle();
 </script>
 
+<h2>Ranking Mensal - Agosto 2025</h2>
+<div class="ranking-mensal">
+  <table>
+    <thead>
+      <tr>
+        <th>Posição</th>
+        <th>Nome</th>
+        <th>Pontuação</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1º</td>
+        <td>Francisco</td>
+        <td>98</td>
+      </tr>
+      <tr>
+        <td>2º</td>
+        <td>Luma</td>
+        <td>95</td>
+      </tr>
+      <tr>
+        <td>3º</td>
+        <td>Vinicius</td>
+        <td>92</td>
+      </tr>
+      <tr>
+        <td>4º</td>
+        <td>Joyce</td>
+        <td>89</td>
+      </tr>
+      <tr>
+        <td>5º</td>
+        <td>Eder</td>
+        <td>85</td>
+      </tr>
+      <tr>
+        <td>6º</td>
+        <td>Giselle</td>
+        <td>80</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 </body>
 </html>
